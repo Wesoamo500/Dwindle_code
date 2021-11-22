@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+        background-color:hsl(217, 54%, 11%);
+         margin-top: 40px; 
+      }
+      section{
+
+        border:2px solid hsl(217, 54%, 11%);
+        width:20%;
+        margin: auto;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 17px;
+        border-radius:8px;
+        background-color: hsl(216, 50%, 16%);
+      }
+      section>a#image img {
+        width:100%;
+        border:1px hsl(216, 50%, 16%);
+        border-radius: 8px; 
+
+      }
+      section>div{
+        border-bottom: 1px ridge hsl(215, 32%, 27%);
+      }
+
+      p {
+        font-size: 18px;
+        color:#8BACD9;
+      }
+      h3{
+        color: white;
+      }
+      h4{
+        color:hsl(178, 100%, 50%);
+      }
+      
+      a{
+        text-decoration:none;
+        color:white;
+      }
+      a:hover {
+        color:hsl(178, 100%, 50%);
+      }
+      @media screen and (max-width: 375px){
+        section.small {
+          width:80%;
+        }
+      }
+      
+  </style>
+</head>
+<body>
+    <section class="large small">
+      <a href="" id="image"><img src="images/image-equilibrium.jpg" alt="image-equilibrium"></a>
+    
+      <div>
+        
+          <h3><a href="">Equilibrium #3429</a></h3>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          
+    
+        
+          <h4><img src="images/icon-ethereum.svg">   0.041 ETH</h4>
+          <p id="buttom-b"><img src="images/icon-clock.svg"> 3 days left</p>
+          
+      </div>
+      
+    
+
+    
+      <p><img src="images/image-avatar.png" width=8.5%;> Creation of<a href=""> Jules Wyvern</a> </p>
+    </section>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
